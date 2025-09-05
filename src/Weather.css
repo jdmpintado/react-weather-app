@@ -46,14 +46,13 @@
 
 .Weather canvas {
     vertical-align: middle;
-    margin: 10px 10px 10px 0;
     display: inline-block;
 }
 
 .Weather .temperature {
     font-size: 64px;
     font-weight: 400;
-    margin: 10px 0;
+    margin: 10px 0 0 10px;
     vertical-align: middle;
 }
 
