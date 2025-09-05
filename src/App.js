@@ -8,10 +8,9 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header>
-          <h1>Weather App</h1>
+          <h1>Welcome to the Weather App!</h1>
         </header>
         <main>
-          <p>Welcome to the Weather App!</p>
           <Weather />
         </main>
         <footer>

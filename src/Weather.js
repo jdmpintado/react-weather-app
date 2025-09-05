@@ -11,6 +11,7 @@ export default function Weather() {
               type="text"
               className="form-control"
               placeholder="Enter a city..."
+              autoFocus="on"
             />
           </div>
           <div className="col-3">
@@ -22,9 +23,7 @@ export default function Weather() {
       </form>
       <h1>New York</h1>
       <ul>
-        <li>Monday</li>
-        <li>Sunny</li>
-        <li>25°C</li>
+        <li>Monday, 12:10</li>
       </ul>
       <div className="row">
         <div className="col-6">
@@ -32,10 +31,12 @@ export default function Weather() {
             src="https://www.gstatic.com/weather/conditions2023/2023.2/svg/partly_cloudy_light.svg"
             alt="Partly Cloudy"
           />
-          6ºC
+          <span className="temperature">6</span>
+          <span className="unit">ºC</span>
         </div>
-        <div className="col-6">
+        <div className="col-6 weather-details">
           <ul>
+            <li>Sunny</li>
             <li>Humidity: 60%</li>
             <li>Wind: 10 km/h</li>
           </ul>
