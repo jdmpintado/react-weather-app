@@ -1,21 +1,19 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F9F7FE;
+}
+
 .App {
-  max-width: 600px;
-  margin: 30px auto;
+  max-width: 800px;
+  margin: 50px auto;
 }
 
-.App header h1 {
+.App footer p {
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 36px;
-  color: rgb(135, 135, 135);
-  margin-bottom: 20px;
-}
-
-.App footer {
-  text-align: center;
-  margin-top: 10px 0;
-  font-size: 12px;
+  font-size: 14px;
   color: #888;
+  margin: 20px 0;
 }
 
 .App a {

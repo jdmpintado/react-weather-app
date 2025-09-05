@@ -1,16 +1,18 @@
 .WeatherForecast {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
+  color: rgba(52, 47, 81, 0.8);;
 }
 
 .WeatherForecast-day {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 
 .WeatherForecast-temperatures {
   font-size: 16px;
+  font-weight: 600;
   margin-top: 10px;
 }
 
