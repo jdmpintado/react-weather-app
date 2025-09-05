@@ -11,7 +11,7 @@ export default function App() {
           <h1>Welcome to the Weather App!</h1>
         </header>
         <main>
-          <Weather />
+          <Weather defaultCity="Paris" />
         </main>
         <footer>
           This project was coded by{" "}
