@@ -27,6 +27,7 @@ function minTemperature() {
   let temperature = Math.round(props.data.temperature.minimum);
   return `${temperature}º`;
 }
+
   return (
     <div>
       <div className="WeatherForecast-day">{day()}</div>
