@@ -1,0 +1,19 @@
+.Weather {
+    background-color: #f0f8ff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.Weather ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Weather img {
+    height: 64px;
+    width: 64px;
+    vertical-align: middle;
+    margin-right: 10px;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
+import Weather from "./Weather";
 import "./App.css";
 
 export default function App() {
@@ -9,6 +10,10 @@ export default function App() {
         <header>
           <h1>Weather App</h1>
         </header>
+        <main>
+          <p>Welcome to the Weather App!</p>
+          <Weather />
+        </main>
         <footer>
           This project was coded by{" "}
           <a
